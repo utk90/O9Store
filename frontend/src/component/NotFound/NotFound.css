@@ -1,0 +1,11 @@
+.notfound-page {
+    min-height: 92.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 700 24px Roboto;
+}
+
+.notfound-page>.not-found-text {
+    font-size: 48px;
+}

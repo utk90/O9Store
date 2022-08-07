@@ -1,0 +1,38 @@
+button.MuiButtonBase-root.MuiFab-root {
+    /* margin-left: -5px; */
+    /* position: fixed;
+    right: 2vmax;
+    top: 5vmax; */
+
+    @media screen and (max-width: 640px) {
+        /* margin-left: -35px; */
+    }
+}
+
+.MuiSpeedDialAction-fabClosed {
+    transition-delay: 1000ms !important;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    position: fixed;
+    right: 0.6vmax;
+    top: 1vmax;
+    cursor: pointer;
+    z-index: 100;
+}
+
+button.MuiButtonBase-root.MuiFab-root.MuiSpeedDial-fab.MuiFab-primary,
+button.MuiButtonBase-root.MuiFab-root.MuiSpeedDial-fab.MuiFab-primary:hover {
+    background-color: transparent;
+    position: fixed;
+    box-shadow: none;
+    cursor: pointer;
+    /* width: 56px;
+    height: 56px; */
+    position: fixed;
+    right: 0.6vmax;
+    top: 1vmax;
+}

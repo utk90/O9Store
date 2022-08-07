@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #000610;
+    z-index: 10;
+    position: fixed;
+    /* width: 98.9vw; */
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: 'Roboto';
+}
+
+.navbar>.navbar-link-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar>.navbar-link-container>.navbar-link {
+    color: white;
+    text-decoration: none;
+}
