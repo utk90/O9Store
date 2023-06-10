@@ -1,7 +1,7 @@
 {
   "name": "o9store",
   "version": "1.0.0",
-  "description": "take away your essentials",
+  "description": "The Ecommerce Application is a web-based platform that aims to provide users with a seamless and convenient online shopping experience. The application allows customers to browse and purchase products from various categories, make secure payments, track orders, and manage their accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
